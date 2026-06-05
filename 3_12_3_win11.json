@@ -1,0 +1,141 @@
+{
+  "cases": [
+    {
+      "name": "int",
+      "round_trip_ok": true,
+      "sha256": "420f441051addef03c2364f1a7dee7159ad9570c06e8ea563f32f8e4ad933bd3"
+    },
+    {
+      "name": "string",
+      "round_trip_ok": true,
+      "sha256": "abde619120eb87ec5037978bd7ab87e3215376f6481c818805fec706496d4d7f"
+    },
+    {
+      "name": "float",
+      "round_trip_ok": true,
+      "sha256": "933fb1cb2c0608a77d5c52d89b7dbd76961ae13355d61c89c876664692da1067"
+    },
+    {
+      "name": "bool_true",
+      "round_trip_ok": true,
+      "sha256": "8252f6b37cd88a9afd6c793d8ed9a59850775b739b0cb629cf5f8cab92fd2de1"
+    },
+    {
+      "name": "bool_false",
+      "round_trip_ok": true,
+      "sha256": "b5c02fe928cc341f80db9f9d6fa8aa44fe0473ec08cf67375f50b6da92513c5f"
+    },
+    {
+      "name": "none",
+      "round_trip_ok": true,
+      "sha256": "8b1663da576e3578fd9e93e64081f24282af0bc3e08b3d3c8e288c26741faa4d"
+    },
+    {
+      "name": "list",
+      "round_trip_ok": true,
+      "sha256": "b383c6533f107064a01e43d83a868bc7cfef21a8338f8b4aa3a28c1b0f1dddfc"
+    },
+    {
+      "name": "empty_list",
+      "round_trip_ok": true,
+      "sha256": "91c9a231a5a188e4c6d11b075897454d774e325bebd389b92bec24a60c85ce8e"
+    },
+    {
+      "name": "tuple",
+      "round_trip_ok": true,
+      "sha256": "ce939cd0f47079218ba4dadd1c1e0dd8c74bf9859c3bf6f4ad2411715c32e809"
+    },
+    {
+      "name": "empty_tuple",
+      "round_trip_ok": true,
+      "sha256": "cec88ee7627d5bbd6bde131af5b2c84ed91d5e4bfe57b1c546270f19db7bd13b"
+    },
+    {
+      "name": "dictionary",
+      "round_trip_ok": true,
+      "sha256": "1fd5caa3ba0cddb2da9f1573e4f011be005b38d9b17dd079738176c20be42562"
+    },
+    {
+      "name": "dictionary_with_list",
+      "round_trip_ok": true,
+      "sha256": "f34a3ab78866e34992629195d97beb896519d30adb7cb3f5b3324bff2f4b47b5"
+    },
+    {
+      "name": "empty_dictionary",
+      "round_trip_ok": true,
+      "sha256": "8e452144801c40bbf1278559e870c09bfeadf68a56dbd75cc095941659b4634d"
+    },
+    {
+      "name": "set_numbers",
+      "round_trip_ok": true,
+      "sha256": "3cfaf12626a004d6d841f5732336860234035759846e860532043aec456bae18"
+    },
+    {
+      "name": "set_strings",
+      "round_trip_ok": true,
+      "sha256": "91489598fbe83dbb96f9a43143b7cdfad84e73169c2821fb472ffa512ed080af"
+    },
+    {
+      "name": "empty_set",
+      "round_trip_ok": true,
+      "sha256": "e69592a8b1d32df0039cd5d30dee6de023152c222ef28282db599df8e29d1932"
+    },
+    {
+      "name": "frozenset",
+      "round_trip_ok": true,
+      "sha256": "671b40ccef485ad0456126c9182121d1e04aac1e28398ae506d40a31b10f1d84"
+    },
+    {
+      "name": "empty_frozenset",
+      "round_trip_ok": true,
+      "sha256": "210b24c77dca64047d81e4cd8be37c609d0b1ead8bdfeafb99fdfbc87222eacd"
+    },
+    {
+      "name": "nested",
+      "round_trip_ok": true,
+      "sha256": "04d4c267675ba965635dc3863faf5789e8e24d7cc40e3b6f7529b593809a0901"
+    },
+    {
+      "name": "float_addition",
+      "round_trip_ok": true,
+      "sha256": "85a8b9189f048e14bb0070e32fc2105234d945b9823230e9e0ab7b00c1f2ef22"
+    },
+    {
+      "name": "float_inf",
+      "round_trip_ok": true,
+      "sha256": "12e313a3ab2fe2d2a7877a883c85f87f5e53ea9e28b698b6b2444df33eef7308"
+    },
+    {
+      "name": "float_negative_inf",
+      "round_trip_ok": true,
+      "sha256": "ba7f20fc2c37b76e61c27d0d2a16acfde2144c083ebdf38291f25cef3e4337a2"
+    },
+    {
+      "name": "float_nan",
+      "round_trip_ok": true,
+      "sha256": "05efdb62350ed3e1d11482a32df81d0f9def5daffba080d4e85015cb20c5e389"
+    },
+    {
+      "name": "recursive_list",
+      "round_trip_ok": true,
+      "sha256": "2c73a0e0be84ba25fecfccd3ba889946fbf6b5bcd98a0147776f36f47965da9a"
+    },
+    {
+      "name": "shared_references",
+      "round_trip_ok": true,
+      "sha256": "63d9afe9665d8c57ec127d3767c2edeb83c3fd669a4c99eebc58ef03ce9a30a6"
+    },
+    {
+      "name": "custom_class",
+      "round_trip_ok": true,
+      "sha256": "d5a1b94b15cedef87519eccaa5773d3d448855599bbadc871c389da445e6cdef"
+    }
+  ],
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_implementation": "CPython",
+    "python_version": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+    "release": "11",
+    "system": "Windows"
+  }
+}
